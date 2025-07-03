@@ -1,0 +1,70 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\blinky.gif" />
+    <None Remove="Resources\blinky.png" />
+    <None Remove="Resources\clyde.png" />
+    <None Remove="Resources\eating_dots.mp3" />
+    <None Remove="Resources\frightened_ghost.gif" />
+    <None Remove="Resources\frightened_ghost.png" />
+    <None Remove="Resources\get_bonus.mp3" />
+    <None Remove="Resources\inky.png" />
+    <None Remove="Resources\lose_live.mp3" />
+    <None Remove="Resources\pinky.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <COMReference Include="WMPLib">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>6bf52a50-394a-11d3-b153-00c04f79faa6</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxWMPLib">
+      <WrapperTool>aximp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>6bf52a50-394a-11d3-b153-00c04f79faa6</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\blinky.png" />
+    <EmbeddedResource Include="Resources\clyde.png" />
+    <EmbeddedResource Include="Resources\eating_dots.mp3" />
+    <EmbeddedResource Include="Resources\frightened_ghost.png" />
+    <EmbeddedResource Include="Resources\get_bonus.mp3" />
+    <EmbeddedResource Include="Resources\inky.png" />
+    <EmbeddedResource Include="Resources\lose_live.mp3" />
+    <EmbeddedResource Include="Resources\pinky.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="pacman.Properties.Resources" Collapsed="true">
+    <Position X="13.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAgAAAAQAAABEAAAAQAAAAAAABAACAAAEJA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pacman.Logic.Blinky" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logic\Blinky.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pacman.Logic.BlinkyMovementStrategy" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Logic\BlinkyMovementStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pacman.Logic.Clyde" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logic\Clyde.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pacman.Logic.ClydeMovementStrategy" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Logic\ClydeMovementStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pacman.Logic.Ghost" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAgACgAAAgAAxIEAIAAAAAAIAAAAAYAA=</HashCode>
+      <FileName>Logic\Ghost.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="pacman.Logic.GhostDrawer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgBAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logic\GhostDrawer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="pacman.Logic.GhostMovementStrategy" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgAAAAAAAQAABABAAAAAABABEABAAAAAgAIAAAAAAAA=</HashCode>
+      <FileName>Logic\GhostMovementStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="pacman.Logic.Inky" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logic\Inky.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pacman.Logic.InkyMovementStrategy" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABABAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Logic\InkyMovementStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pacman.Logic.Map" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAQAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Logic\Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pacman.Logic.MovementLogic" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAIAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logic\MovementLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pacman.Logic.Pacman" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAIAAAgACAAAAgAABAAAAgAAAAAIAAAAAYAA=</HashCode>
+      <FileName>Logic\Pacman.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="pacman.Logic.Pinky" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logic\Pinky.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pacman.Logic.PinkyMovementStrategy" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Logic\PinkyMovementStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pacman.BoardGame" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIEA4ABgACoAAAthQhCCBEACQGAgJgEQlUYAIGQACAE=</HashCode>
+      <FileName>ui\BoardGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pacman.MainMenu" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAAAAACAAEBAAAACAAAACAACAAAAAAAgAAAAAAAg=</HashCode>
+      <FileName>ui\Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pacman.Pause" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAABACAIABAAAACAAAQCACAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>ui\Pause.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pacman.Program" Collapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pacman.ui.GameOver" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAAGAAAACAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>ui\GameOver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pacman.ui.LoseLive" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAgAAAAIAAAAA=</HashCode>
+      <FileName>ui\LoseLive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="pacman.Logic.IGhostDrawing" Collapsed="true">
+    <Position X="10" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logic\IGhostDrawing.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="pacman.Logic.IGhostMovementStrategy" Collapsed="true">
+    <Position X="11.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logic\IGhostMovementStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="pacman.Logic.IMovable" Collapsed="true">
+    <Position X="13.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAABAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Logic\IMovable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="pacman.Logic.Direction" Collapsed="true">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAI=</HashCode>
+      <FileName>Logic\Direction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="pacman.Logic.GhostMode" Collapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Logic\GhostMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
